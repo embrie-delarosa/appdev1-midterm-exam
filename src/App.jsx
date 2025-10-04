@@ -1,6 +1,12 @@
+import { useState } from 'react'
 import './App.css'
 
 function App() {
+const [toggleModal, setToggleModal] = useState(false);
+
+  function handleToggleModal() {
+    setToggleModal(!toggleModal);
+  }
 
   return (
     <>
@@ -52,7 +58,7 @@ function App() {
               </li>
               <li>
                 <div className="gradient-button">
-                  <a id="modal_trigger" href="#modal">
+                  <a id="modal_trigger" href="#modal" onClick={handleToggleModal}>
                     <i className="fa fa-sign-in-alt" /> Sign In Now
                   </a>
                 </div>
@@ -68,10 +74,28 @@ function App() {
     </div>
   </header>
   {/* ***** Header Area End ***** */}
-  <div id="modal" className="popupContainer" style={{ display: "none" }}>
+  <div
+  id="modal"
+  className="popupContainer"
+  style={
+    toggleModal
+      ? {
+          display: "block",
+          position: "fixed",
+          opacity: 1,
+          zIndex: 11000,
+          left: "50%",
+          marginLeft: "-165px",
+          top: 100,
+        }
+      : {
+          display: "none",
+        }
+  }
+>
     <div className="popupHeader">
       <span className="header_title">Login</span>
-      <span className="modal_close">
+      <span className="modal_close" onClick={handleToggleModal}>
         <i className="fa fa-times" />
       </span>
     </div>
@@ -909,6 +933,14 @@ function App() {
       </div>
     </div>
   </footer>
+<div
+  id="lean_overlay"
+  style={
+    toggleModal
+      ? { display: "block", opacity: "0.6" }
+      : { display: "none" }
+  }
+/>
 </>
 
   )
