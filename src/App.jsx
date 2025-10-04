@@ -242,7 +242,7 @@ const [toggleModal, setToggleModal] = useState(false);
                 data-wow-duration="1s"
                 data-wow-delay="0.5s"
               >
-                <img src="assets/images/slider-dec.png" alt="" />
+                <img src="/assets/images/slider-dec.png" alt="" />
               </div>
             </div>
           </div>
@@ -262,7 +262,7 @@ const [toggleModal, setToggleModal] = useState(false);
             <h4>
               Amazing <em>Services &amp; Features</em> for you
             </h4>
-            <img src="assets/images/heading-line-dec.png" alt="" />
+            <img src="/assets/images/heading-line-dec.png" alt="" />
             <p>
               If you need the greatest collection of HTML templates for your
               business, please visit{" "}
@@ -359,7 +359,7 @@ const [toggleModal, setToggleModal] = useState(false);
             <h4>
               About <em>What We Do</em> &amp; Who We Are
             </h4>
-            <img src="assets/images/heading-line-dec.png" alt="" />
+            <img src="/assets/images/heading-line-dec.png" alt="" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eismod tempor incididunt ut labore et dolore magna.
@@ -412,7 +412,7 @@ const [toggleModal, setToggleModal] = useState(false);
         </div>
         <div className="col-lg-6">
           <div className="right-image">
-            <img src="assets/images/about-right-dec.png" alt="" />
+            <img src="/assets/images/about-right-dec.png" alt="" />
           </div>
         </div>
       </div>
@@ -426,7 +426,7 @@ const [toggleModal, setToggleModal] = useState(false);
             <h4>
               Check What <em>The Clients Say</em> About Our App Dev
             </h4>
-            <img src="assets/images/heading-line-dec.png" alt="" />
+            <img src="/assets/images/heading-line-dec.png" alt="" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eismod tempor incididunt ut labore et dolore magna.
@@ -556,7 +556,7 @@ const [toggleModal, setToggleModal] = useState(false);
                           <div className="row">
                             <div className="col-lg-12">
                               <div className="client-content">
-                                <img src="assets/images/quote.png" alt="" />
+                                <img src="/assets/images/quote.png" alt="" />
                                 <p>
                                   “Lorem ipsum dolor sit amet, consectetur
                                   adpiscing elit, sed do eismod tempor idunte ut
@@ -567,7 +567,7 @@ const [toggleModal, setToggleModal] = useState(false);
                               </div>
                               <div className="down-content">
                                 <img
-                                  src="assets/images/client-image.jpg"
+                                  src="/assets/images/client-image.jpg"
                                   alt=""
                                 />
                                 <div className="right-content">
@@ -586,7 +586,7 @@ const [toggleModal, setToggleModal] = useState(false);
                           <div className="row">
                             <div className="col-lg-12">
                               <div className="client-content">
-                                <img src="assets/images/quote.png" alt="" />
+                                <img src="/assets/images/quote.png" alt="" />
                                 <p>
                                   “CTO, Lorem ipsum dolor sit amet, consectetur
                                   adpiscing elit, sed do eismod tempor idunte ut
@@ -597,7 +597,7 @@ const [toggleModal, setToggleModal] = useState(false);
                               </div>
                               <div className="down-content">
                                 <img
-                                  src="assets/images/client-image.jpg"
+                                  src="/assets/images/client-image.jpg"
                                   alt=""
                                 />
                                 <div className="right-content">
@@ -616,7 +616,7 @@ const [toggleModal, setToggleModal] = useState(false);
                           <div className="row">
                             <div className="col-lg-12">
                               <div className="client-content">
-                                <img src="assets/images/quote.png" alt="" />
+                                <img src="/assets/images/quote.png" alt="" />
                                 <p>
                                   “May, Lorem ipsum dolor sit amet, consectetur
                                   adpiscing elit, sed do eismod tempor idunte ut
@@ -627,7 +627,7 @@ const [toggleModal, setToggleModal] = useState(false);
                               </div>
                               <div className="down-content">
                                 <img
-                                  src="assets/images/client-image.jpg"
+                                  src="/assets/images/client-image.jpg"
                                   alt=""
                                 />
                                 <div className="right-content">
@@ -646,7 +646,7 @@ const [toggleModal, setToggleModal] = useState(false);
                           <div className="row">
                             <div className="col-lg-12">
                               <div className="client-content">
-                                <img src="assets/images/quote.png" alt="" />
+                                <img src="/assets/images/quote.png" alt="" />
                                 <p>
                                   “Lorem ipsum dolor sit amet, consectetur
                                   adpiscing elit, sed do eismod tempor idunte ut
@@ -657,7 +657,7 @@ const [toggleModal, setToggleModal] = useState(false);
                               </div>
                               <div className="down-content">
                                 <img
-                                  src="assets/images/client-image.jpg"
+                                  src="/assets/images/client-image.jpg"
                                   alt=""
                                 />
                                 <div className="right-content">
@@ -676,7 +676,7 @@ const [toggleModal, setToggleModal] = useState(false);
                           <div className="row">
                             <div className="col-lg-12">
                               <div className="client-content">
-                                <img src="assets/images/quote.png" alt="" />
+                                <img src="/assets/images/quote.png" alt="" />
                                 <p>
                                   “Mark, Lorem ipsum dolor sit amet, consectetur
                                   adpiscing elit, sed do eismod tempor idunte ut
@@ -687,7 +687,7 @@ const [toggleModal, setToggleModal] = useState(false);
                               </div>
                               <div className="down-content">
                                 <img
-                                  src="assets/images/client-image.jpg"
+                                  src="/assets/images/client-image.jpg"
                                   alt=""
                                 />
                                 <div className="right-content">
@@ -717,7 +717,7 @@ const [toggleModal, setToggleModal] = useState(false);
             <h4>
               We Have The Best Pre-Order <em>Prices</em> You Can Get
             </h4>
-            <img src="assets/images/heading-line-dec.png" alt="" />
+            <img src="/assets/images/heading-line-dec.png" alt="" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eismod tempor incididunt ut labore et dolore magna.
@@ -729,7 +729,7 @@ const [toggleModal, setToggleModal] = useState(false);
             <span className="price">$12</span>
             <h4>Standard Plan App</h4>
             <div className="icon">
-              <img src="assets/images/pricing-table-01.png" alt="" />
+              <img src="/assets/images/pricing-table-01.png" alt="" />
             </div>
             <ul>
               <li>Lorem Ipsum Dolores</li>
@@ -749,7 +749,7 @@ const [toggleModal, setToggleModal] = useState(false);
             <span className="price">$25</span>
             <h4>Business Plan App</h4>
             <div className="icon">
-              <img src="assets/images/pricing-table-01.png" alt="" />
+              <img src="/assets/images/pricing-table-01.png" alt="" />
             </div>
             <ul>
               <li>Lorem Ipsum Dolores</li>
@@ -769,7 +769,7 @@ const [toggleModal, setToggleModal] = useState(false);
             <span className="price">$66</span>
             <h4>Premium Plan App</h4>
             <div className="icon">
-              <img src="assets/images/pricing-table-01.png" alt="" />
+              <img src="/assets/images/pricing-table-01.png" alt="" />
             </div>
             <ul>
               <li>Lorem Ipsum Dolores</li>
@@ -906,7 +906,7 @@ const [toggleModal, setToggleModal] = useState(false);
           <div className="footer-widget">
             <h4>About Our Company</h4>
             <div className="logo">
-              <img src="assets/images/white-logo.png" alt="" />
+              <img src="/assets/images/white-logo.png" alt="" />
             </div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
